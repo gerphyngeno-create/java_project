@@ -1,21 +1,16 @@
-package University System.java;
+package University system.java;
 
 public class Person {
     private String name;
-    private int id;
+    private int age;
 
-    public Person (String name, int id){
+    public Person(String name, int age){
         this.name = name;
-        this.id = id;
-
+        this.age = age;
     }
-    public String getname(){
-        return name;
-    }
-    public int getid(){
-        return id;
-    } 
-    public abstract void displayrole();
+    public String getName() {return name;}
+    public int getAge() {return age;}
     
+    public abstract void showinfo();
     
 }

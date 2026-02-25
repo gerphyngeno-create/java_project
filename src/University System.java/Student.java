@@ -24,10 +24,6 @@ public class Student {
         System.out.println(getName() + " paid fee: " + amount);
     }
 
-    @Override
-    public void displayRole() {
-        System.out.println("I am a Student.");
-    }
 }
     
 }

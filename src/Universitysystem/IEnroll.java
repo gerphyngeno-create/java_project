@@ -1,8 +1,4 @@
-package University system.java;
-
-public class IEnroll {
+package Universitysystem;
     public interface IEnroll {
     void enrollCourse(String course);
-}
-    
 }

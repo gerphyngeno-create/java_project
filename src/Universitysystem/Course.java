@@ -1,7 +1,6 @@
-package University system.java;
+package Universitysystem;
 
-public class Course {
-    public class Course {
+  public class Course {
     private String courseName;
     private String courseCode;
 
@@ -13,6 +12,4 @@ public class Course {
     public void showCourse() {
         System.out.println("Course: " + courseName + " (" + courseCode + ")");
     }
-}
-    
 }

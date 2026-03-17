@@ -1,6 +1,6 @@
-package University system.java;
+package Universitysystem;
 
-public class Person {
+public abstract class Person {
     private String name;
     private int age;
 
@@ -11,6 +11,6 @@ public class Person {
     public String getName() {return name;}
     public int getAge() {return age;}
     
-    public abstract void showinfo();
+    public abstract void showInfo();
     
 }

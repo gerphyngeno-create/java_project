@@ -1,7 +1,6 @@
-package University system.java;
+package Universitysystem;
 
-public class Staff {
-    public abstract class Staff extends Person {
+public abstract class Staff extends Person {
     private String staffId;
 
     public Staff(String name, int age, String staffId) {
@@ -15,6 +14,4 @@ public class Staff {
 
     @Override
     public abstract void showInfo();
-}
-    
 }

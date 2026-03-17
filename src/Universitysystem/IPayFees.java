@@ -1,8 +1,4 @@
-package University system.java;
-
-public class IPayFees {
+package Universitysystem;
     public interface IPayFees {
     void payFees(double amount);
-}
-    
 }
